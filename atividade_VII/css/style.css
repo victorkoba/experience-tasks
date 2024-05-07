@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #483D8B;
+    width: 100%;
+    height: 70px;
+}
+
+#logo-senai{
+    margin-top: 15px;
+    height: 40px;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: system-ui;
+    text-transform: capitalize;
+    padding: 20px;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+
+a:hover{
+    color: red;
+}
+
+/* -----------------------------------------------------cabeçalho------------------------------------------------------- */
+
+body{
+    background-color: #f0f0f0;
+}
+
+#titulo-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: system-ui;
+}
+
+#imagem-home {
+    height: 80px;
+    width: 250px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#mural-tarefas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+  
+.informacao{
+    background-color: rgb(246, 233, 178);
+    height: 150px;
+    width: 250px;
+    padding: 30px;
+    margin-left: 60px;
+    margin-bottom: 40px;
+}
+
+.informacao h2{
+    display: block;
+    font-family: system-ui;
+    font-size: 20px;
+}
+
+.informacao ul{
+    display: block;
+    font-family: system-ui;
+    margin-bottom: 5px;
+}
+
+.informacao li{
+    margin-bottom: 8px;
+}
+
+/* ----------------------------------------home----------------------------------------------------------------------- */
+
+#main-perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    height: 350px;
+    width: 450px;
+    margin-top: 30px;
+}
+
+.imagens{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+#logo-perfil{
+    height: 80px;
+    width: 250px;
+    margin-right: 20px;
+}
+
+#avatar-usuario{
+    margin-right: 20px;
+    width: 150px;
+}
+
+#perfil h1{
+    font-family: system-ui;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+#perfil p{
+    margin-bottom: 8px;
+    font-family: system-ui;;
+}
+
+/* -----------------------------------------------------perfil------------------------------------------------------------ */
+
+#main-galeria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    height: 600px;
+    width: 1000px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagem-galeria{
+    height: 130px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+#logo-galeria{
+    height: 80px;
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+#titulo-galeria{
+    font-family: system-ui;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#galeria{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3);
+    gap: 5px;
+}
